@@ -10344,6 +10344,35 @@ body {
   padding: 5rem 0;
 }
 
+.header-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #333; /* A fallback color if the image fails to load */
+    color: #fff;
+}
+
+.signup-section {
+    background-image: url('img/nectar2.webp');
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    margin-top: 20px; /* Spacing between header and form */
+}
+
+/* ... rest of your form styles ... */
+
+/* Additional styles to ensure legibility over the background image */
+.signup-form {
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.form-group label,
+.form-group input,
+.submit-button {
+    /* Additional styling to ensure these elements look good over the image */
+}
 
 
 /* Signup Section */
